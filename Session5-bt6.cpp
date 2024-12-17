@@ -24,17 +24,17 @@ int main(){
 
 		switch(choose){
 			case 1: 
-			printf("Tong cua %.2f và %.2f là: %.2f\n", n1, n2, n1 + n2); 
+			printf("Tong cua %.2f va %.2f la: %.2f\n", n1, n2, n1 + n2); 
 			break; 
 			case 2: 
-			printf("Hieu cua %.2f và %.2f là: %.2f\n", n1, n2, n1 - n2); 
+			printf("Hieu cua %.2f va %.2f la: %.2f\n", n1, n2, n1 - n2); 
 			break;
 			case 3: 
-			printf("Tich cua %.2f và %.2f là: %.2f\n", n1, n2, n1 * n2); 
+			printf("Tich cua %.2f va %.2f la: %.2f\n", n1, n2, n1 * n2); 
 			break;
 			case 4: 
 			if(n2 != 0){
-			printf("Thuong cua %.2f và %.2f là: %.2f\n", n1, n2, n1 / n2); 
+			printf("Thuong cua %.2f va %.2f la: %.2f\n", n1, n2, n1 / n2); 
 			}
 				else{
 					printf("Loi!!! Mau so khong the la so 0 "); 
